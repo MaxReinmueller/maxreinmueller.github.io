@@ -1,3 +1,19 @@
+/* FONTS */
+.stdtxt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+.name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+ h3 {color: white;}
+
+ /* BODY */
 body{
     background-image: url("../Images/joseph-barrientos-oQl0eVYd_n8-unsplash.jpg");
     background-size: cover;
@@ -19,13 +35,7 @@ body{
     font-size: 100px;
 }
 
-.name {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-}
- h3 {color: white;}
+
 
 .card { background-color: rgba(245, 245, 245, 0.4); }
 .card-header, .card-footer { opacity: 0}
@@ -35,9 +45,9 @@ body{
 }
 
 #meTitle {
-    height: 289px;
+    height: 389px;
     background-color: white;
-    padding: 50px;
+    padding: 90px;
 }
 
 .breakOut {
@@ -47,3 +57,19 @@ body{
     color: rgba(0, 0, 0, .6);
 }
 
+#devCard {
+    background-image: url("../Images/markus-spiske-qjnAnF0jIGk-unsplash.jpg");
+    background-size: cover;
+    height: 289px;
+    padding: 50px;
+}
+
+#printCard {
+    background-image: url("../Images/bruno-martins-OhJmwB4XWLE-unsplash.jpg");
+    background-size: cover;
+    height: 289px;
+    padding: 50px;
+}
+#brandExp{
+    height: 398px;
+}
