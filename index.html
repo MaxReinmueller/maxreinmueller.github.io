@@ -2,91 +2,134 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css" type="text/css">
-    <title>About</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css" type="text/css">
+  <title>About</title>
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" id="hButton" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" id="pButton" href="portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link" href="contact.html">Contact</a>
 
-            </div>
-        </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-    <!-- jumbotron -->
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-            attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.
-        </p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <div class="container">
+
+    <!-- Landing Image -->
+    <div id="landing">
+        <p class="name lead">Max Reinmueller</p>
+        <h1 class="display-4" id="headerTxt">Developer</h1>
+   </div>
+
+
+
+    <!-- Featured Projects -->
+    <div class="row">
+      <div class="col-sm col-md col-lg">
+        <h3 id=" meTitle">Featured Projects</h3>
+      </div>
     </div>
 
-    <!-- past work cards -->
-   
-    <div class="card-deck">
-            <div class="card border-light mb-3" style="max-width: 18rem;">
-              <img src="Images/ailogo.png" height="50%" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Merchandising</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-             
-            </div>
-            <div class="card border-light mb-3" style="max-width: 18rem;">
-              <img src="Images/ailogo.png" height="50%" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Web Development</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              
-            </div>
-            <div class="card border-light mb-3" style="max-width: 18rem;">
-              <img src="Images/ailogo.png" height="50%" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Project Management</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              </div>
-              
-            </div>
-          </div>
+<!-- <div class="row"> -->
+    <div class="card-group">
+        <div class="card">
+          <img src="Images/launchit.jpg" class="card-img-top" alt="..." style="padding-right: 15px; max-width: 230px;"> </div>
+  
+        <div class="card">
+          <img id="fetPro1" src="Images/batmanvr.jpg" class="card-img-top" alt="..." style="margin-bottom: 10px; max-width: 230px;">
+          <img src="Images/launchit (1).jpg" class="card-img-top" alt="..." style="margin-bottom: 0; max-width: 230px;">
+        </div>
+      
 
-    <!-- Footer -->
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-            <a class="navbar-brand" href="#">Footer</a>
-          </nav>
+    <!-- <div class="card-group" style="max-width: 510px" style="min-width: 510px"> -->
+        <div class="card">
+          <img src="Images/launchit.jpg" class="card-img-top" alt="..." style="padding-right: 10px; padding-left: 10px; max-width: 230px;"> </div>
+  
+        <div class="card">
+          <img id="fetPro1" src="Images/batmanvr.jpg" class="card-img-top" alt="..." style="margin-bottom: 10px; max-width: 230px;">
+          <img src="Images/launchit (1).jpg" class="card-img-top" alt="..." style="margin-bottom: 0; max-width: 230px;">
+        </div>
+      </div>  
+      <!-- </div>  -->
 
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
 
-    <!-- for bootstrap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+  
+ 
 
-    <!-- bootstrap -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+  <!-- This is Me -->
+  <div class="row">
+      <div class="col-sm col-md col-lg">
+        <h3 id="meTitle">This is Me</h3>
+      </div>
+    </div>
+    <div class="landing">
+        <div class="jumbotron">
+          <h1 class="display-4">Developer</h1>
+          <p class="lead">Max Reinmueller</p>
+        </div>
+      </div>
+
+  <!-- Stuff I do -->
+  <div class="row">
+      <div class="col-sm col-md col-lg">
+        <h3 id="stuffTitle">Stuff I do</h3>
+      </div>
+    </div>
+    <div class="landing">
+        <div class="jumbotron">
+          <h1 class="display-4">Developer</h1>
+          <p class="lead">Max Reinmueller</p>
+        </div>
+      </div>
+
+  <!-- Brand Expirence -->
+  <div class="row">
+      <div class="col-sm col-md col-lg">
+        <h3 id="brandExpTitle">Brand Expirence</h3>
+      </div>
+    </div>
+    <div class="landing">
+        <div class="jumbotron">
+          <h1 class="display-4">Developer</h1>
+          <p class="lead">Max Reinmueller</p>
+        </div>
+      </div>
+
+
+    <!-- end of container -->
+  </div>
+
+
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+
+  <!-- for bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+
+  <!-- bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

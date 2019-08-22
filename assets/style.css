@@ -1,5 +1,35 @@
-.jumbotron{
-    background: url("../Images/IMG_24721.jpg") no-repeat center center; 
-    
-    background-size: 100% 100%;
+body{
+    background-image: url("../Images/joseph-barrientos-oQl0eVYd_n8-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+#landing {
+    height: 389px;
+    padding: 25px;     
+    display: inline-block;
+}
+
+#headerTxt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    size: 52px;
+}
+
+.name {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    size: 42px;
+}
+
+
+.cards{
+  border-color: none;
+}
+
+#meTitle {
+    color: blueviolet;
+}
+
