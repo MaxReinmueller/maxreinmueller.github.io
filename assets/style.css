@@ -5,10 +5,12 @@ body{
 }
 
 #landing {
-    height: 389px;
-    padding-top: 100px;     
+    height: 350px;
+    padding-top: 150px;     
     font-display: center;
 }
+
+#feat {margin-top: 50px;}
 
 #headerTxt {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -23,13 +25,21 @@ body{
     text-align: center;
     font-size: 30px;
 }
+ h3 {color: white;}
 
-
-.cards{
-  border-color: none;
-}
+.card { background-color: rgba(245, 245, 245, 0.4); }
+.card-header, .card-footer { opacity: 0}
 
 #meTitle {
-    color: blueviolet;
+    margin-top: 50px;
+    height: 389px;
+    background-color: white;
+}
+
+.breakOut {
+    width: 100vw;
+    position: relative;
+    left: calc(-1 *(100vw - 100%) / 2);
+    color: rgba(0, 0, 0, .6);
 }
 
