@@ -6,7 +6,7 @@ body{
 
 #landing {
     height: 350px;
-    padding-top: 150px;     
+    padding-top: 120px;     
     font-display: center;
 }
 
@@ -30,10 +30,14 @@ body{
 .card { background-color: rgba(245, 245, 245, 0.4); }
 .card-header, .card-footer { opacity: 0}
 
+.featCards{
+    margin-bottom: 75px;
+}
+
 #meTitle {
-    margin-top: 50px;
-    height: 389px;
+    height: 289px;
     background-color: white;
+    padding: 50px;
 }
 
 .breakOut {
