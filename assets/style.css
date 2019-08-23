@@ -58,7 +58,7 @@ ul {
     display: block;
     width: 230px;
     height: 270px;
-    margin: 0px 0x 10px 0px;
+    margin: 0px 10x 10px 0px;
     padding: 0;
     text-align: center;
     float: left;
@@ -75,7 +75,7 @@ ul {
     display: block;
     width: 230px;
     height: 130px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 10px 10px 0px;
     padding: 0;
     text-align: center;
     float: left;
