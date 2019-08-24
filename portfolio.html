@@ -1,105 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/cssreset.css" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        <link rel="stylesheet" href="assets/style.css" type="text/css">
-    <link rel="stylesheet" href="assets/style.css" type="text/css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/cssreset.css" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css" type="text/css">
+  <link rel="stylesheet" href="assets/style.css" type="text/css">
+  <title>Portfolio</title>
 </head>
+
 <body>
 
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" id="hButton" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html">
+          <img src="Images/Display-Place-Logo-Faveicon.png" width="30" height="30" alt="">
+        Max Reinmueller</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" id="pButton" href="portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
-  
-        </div>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
-<!-- Content -->
-<div class="container">
-<div class="content" id="home-projects">
-    <div class="title">Projects</div>
+  <!-- Content -->
+  <div class="container">
+    <div class="content" id="home-projects">
+      <div class="title">Projects</div>
 
-    <div class="project-grid">
-      <div class="project thumb-xl">
-        <a href="https://maxreinmueller.github.io/ucsd-bootcamp-project-1/" target="https://maxreinmueller.github.io/ucsd-bootcamp-project-1/">
-          <ul>
-            <li>
-              <img src="Images/Stock-View.png" alt="#">
-            </li>
-          </ul>
-        </a>
-      </div>
-      <div class="project-bucket">
-        <div class="project-thumb">
-          <a href="https://maxreinmueller.github.io/GifTastic/" target="https://maxreinmueller.github.io/GifTastic/">
+      <div class="project-grid">
+        <div class="project thumb-xl">
+          <a href="https://maxreinmueller.github.io/ucsd-bootcamp-project-1/"
+            target="https://maxreinmueller.github.io/ucsd-bootcamp-project-1/">
             <ul>
               <li>
-                <img src="Images/gifTastic.png" alt="#">
+                <img src="Images/Stock-View.png" alt="#">
               </li>
             </ul>
           </a>
         </div>
-        <div class="project-thumb">
-          <a href="https://maxreinmueller.github.io/TrainScheduler/" target="https://maxreinmueller.github.io/TrainScheduler/">
-            <ul>
-              <li>
-                <img src="Images/trainScheduler.png" alt="#">
-              </li>
-            </ul>
-          </a>
+        <div class="project-bucket">
+          <div class="project-thumb">
+            <a href="https://maxreinmueller.github.io/GifTastic/" target="https://maxreinmueller.github.io/GifTastic/">
+              <ul>
+                <li>
+                  <img src="Images/gifTastic.png" alt="#">
+                </li>
+              </ul>
+            </a>
+          </div>
+          <div class="project-thumb">
+            <a href="https://maxreinmueller.github.io/TrainScheduler/"
+              target="https://maxreinmueller.github.io/TrainScheduler/">
+              <ul>
+                <li>
+                  <img src="Images/trainScheduler.png" alt="#">
+                </li>
+              </ul>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="project thumb-xl">
-        <a>
-          <ul>
-            <li>
-              <img src="Images/230x270.png" alt="#">
-            </li>
-          </ul>
-        </a>
-      </div>
-      <div class="project-bucket">
-        <div class="project-thumb">
+        <div class="project thumb-xl">
           <a>
             <ul>
               <li>
-                <img src="Images/230x130.png" alt="#">
+                <img src="Images/230x270.png" alt="#">
               </li>
             </ul>
           </a>
         </div>
-        <div class="project-thumb">
-          <a>
-            <ul>
-              <li>
-                <img src="Images/230x130.png" alt="#">
-              </li>
-            </ul>
-          </a>
+        <div class="project-bucket">
+          <div class="project-thumb">
+            <a>
+              <ul>
+                <li>
+                  <img src="Images/230x130.png" alt="#">
+                </li>
+              </ul>
+            </a>
+          </div>
+          <div class="project-thumb">
+            <a>
+              <ul>
+                <li>
+                  <img src="Images/230x130.png" alt="#">
+                </li>
+              </ul>
+            </a>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- end of container -->
   </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
 
-  <!-- end of container -->
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script></body>
 </html>
-
-
-     
