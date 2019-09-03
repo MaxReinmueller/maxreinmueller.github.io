@@ -37,6 +37,10 @@ body {
     background-attachment: fixed;
 }
 
+.projectGrid{
+    margin-bottom: 10px;
+}
+
 #landing {
     height: 250px;
     margin-top: 120px;
@@ -119,14 +123,14 @@ ul {
 
 #devCard {
     background-size: cover;
-    background-image: url("../Images/markus-spiske-qjnAnF0jIGk-unsplash.jpg");
+    background-image: url("../Images/dev.jpg");
     background-blend-mode: lighten;
     height: 289px;
     padding: 50px;
 }
 
 #printCard {
-    background-image: url("../Images/bruno-martins-OhJmwB4XWLE-unsplash.jpg");
+    background-image: url("../Images/print.jpg");
     background-size: cover;
 
     height: 289px;
@@ -134,5 +138,10 @@ ul {
 }
 
 #brandExp {
-    height: 398px;
+    height: 298px;
+    padding-top: 20px;
+}
+
+.pics {
+    margin-top: 65px;
 }
