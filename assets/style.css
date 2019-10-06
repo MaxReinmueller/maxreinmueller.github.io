@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+}
+
+#mainContent {
+    margin-top: 40px;
+}
+
+.cardSpace {
+    margin-bottom: 20px;
+}
+
+#nameCard {
+    margin-left: 30px;
+}
+
+.aboutText{
+    margin-bottom: 50px;
+}
