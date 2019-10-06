@@ -1,5 +1,6 @@
 body {
-    background-color: lightblue;
+   background-image: url(../assets/images/279730-P66R53-825.jpg);
+   background-repeat: repeat;
 }
 
 #mainContent {
@@ -11,6 +12,7 @@ body {
 }
 
 #nameCard {
+    margin-top: 15px;
     margin-left: 30px;
 }
 
