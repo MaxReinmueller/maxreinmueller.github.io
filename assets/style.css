@@ -7,6 +7,10 @@ body {
     margin-left: 10px
 }
 
+.icons {
+    max-width: 130px;
+}
+
 #mainContent {
     margin-top: 40px;
 }
