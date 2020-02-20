@@ -15,6 +15,10 @@ body {
     max-width: 130px;
 }
 
+#achievement {
+    height: 200px;
+}
+
 .mainContent {
     margin-top: 40px;
 }
