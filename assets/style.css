@@ -17,7 +17,7 @@ body {
 
 #achievement {
     height: 200px;
-}
+}   
 
 .mainContent {
     margin-top: 40px;
@@ -25,6 +25,7 @@ body {
 
 .cardSpace {
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 #nameCard {
@@ -36,7 +37,7 @@ body {
     margin-bottom: 40px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 5280px) {
     #myPic {
         display: block;
         margin-left: auto;
