@@ -2,6 +2,19 @@ body {
    background-image: url(../assets/images/279730-P66R53-825.jpg);
    background-repeat: repeat;
 }
+
+#accordionExample {
+    margin: 20px;
+}
+
+#topImage {
+ max-width: 350px;
+ padding: 50px;
+ display: block;
+ margin: auto;
+ 
+}
+
 #myPic {
     max-width: 130px;
     max-height: 130px; 

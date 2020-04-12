@@ -39,20 +39,196 @@
   </nav>
 
   <div class="container">
-    <div class="card cardSpace">
-      <div class="card-body">
-        <h5 class="card-title titleSpace">About Me</h5>
-
-          <div class="col-12 aboutText">
-            <h6 class="card-title text-muted">Bio</h6>
-            <h5 class="card-subtitle mb-2"> Web developer + relationship manager + creative thinker with a certificate in web development from the University of California San Diego. Max has strong communication skills and a track record of successfully converting client goals into deliverable products. Max is responsible for producing and delivering over $700,000 in custom products and closing $2,000,000 in real estate through strong relationship management practices and technical problem-solving skills. Works well under pressure, in team environments, and with deadlines. A multitasker that is able to quickly assess project needs and allocate resources to ensure successful outcomes.</h5>
-            </div>
+    <!-- Project 1 -->
+    <div class="accordion" id="accordionExample">
+      <div class="card text-center">
+        <div class="card-body">
+          <h4 class="card-title">Agile Development of Top Gun Realty Inc</h4>
         </div>
       </div>
+
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <a href="http://www.topgunrealtyinc.com/" target="http://www.topgunrealtyinc.com/"><img
+                src="assets/images/topgun.png" class="card-img" id="topImage" alt="..."></a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-muted">Project 1</h5>
+              <p class="card-text">Objective: Deploy a working site where agents will be able to post and update
+                listings.</p>
+              <h6 class="text-muted">Technologies Used</h6>
+              <p>Javascript, Node, React, Strapi CMS, Gatsbyjs, SQLite, GraphQL, GoDaddy</p>
+              <a href="http://www.topgunrealtyinc.com/" target="http://www.topgunrealtyinc.com/">Link to site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Sprint 1 - Getting Started (current objective)
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <h5>Set up foundation for development</h5>
+            <ul>
+              <li>Set Up Stapi/Gatsby</li>
+              <li>Replicte current site map</li>
+              <li>Deploy new site</li>
+            </ul>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Notes
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sprint 1 Notes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    This is where notes will go
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              Sprint 2 - Style Site
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <h5>Re-style/brand current pages</h5>
+            <ul>
+              <li>Home Page</li>
+              <li>Tools Page</li>
+              <li>Contact Page</li>
+              <li>Agents Page</li>
+            </ul>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Notes
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sprint 1 Notes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    This is where notes will go
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
+              Sprint 3 - Make listings page
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            <h5>Page for agents to add and edit listings</h5>
+            <ul>
+              <li>Create page</li>
+              <li>Assign user permissions</li>
+            </ul>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Notes
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sprint 1 Notes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    This is where notes will go
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="card mb-3 mt-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <a href="http://www.topgunrealtyinc.com/" target="http://www.topgunrealtyinc.com/"><img
+                src="assets/images/topgun.png" class="card-img" id="topImage" alt="..."></a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class=" text-muted">Project 2</h5>
+              <p class="card-text">Objective: Deploy a project management tool for broker and agents
+                listings.</p>
+              <h6 class="text-muted">Technologies Used</h6>
+              <p>Javascript, Node, React, Strapi CMS, Gatsbyjs, SQLite, GraphQL, GoDaddy</p>
+              <a href="http://www.topgunrealtyinc.com/" target="http://www.topgunrealtyinc.com/">Link to site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
+
+
   <!-- Footer -->
-  <ul class="nav navbar-light bg-light justify-content-center fixed-bottom">
+  <ul class="nav navbar-light bg-light justify-content-center ">
     <li class="nav-item">
       <a class="nav-link" href="index.html">Home</a>
     </li>
