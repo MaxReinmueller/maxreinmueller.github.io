@@ -1,3 +1,13 @@
 .excCard {
     
 }
+
+.excImg {
+    max-width: 100px;
+}
+
+.jumbotron {
+    background-image: url(../assets/images/woodHeader.png);
+
+
+}
