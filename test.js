@@ -11,7 +11,7 @@ const splitReverse = (initalInput) => {
 }
 
 const display = (reverseInput) => {
-    var newDiv = $("<div>")
+    var newDiv = $("<h3>")
     newDiv.text(reverseInput)
     $("#answer").append(newDiv);
     event.preventDefault();

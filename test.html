@@ -11,6 +11,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style.css" type="text/css">
   <link rel="stylesheet" href="assets/excersises.css" type="text/css">
+  <link rel="stylesheet" href="test.css" type="text/css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
@@ -44,14 +45,15 @@
   </nav>
   <!-- the excersise and the out put -->
   <div class="container">
-    <!-- Title -->
-    <h1>The Reverser</h1>
-    <!-- Description -->
-    <h3>Type in anything you want and on submit the reverser will reverse the text!</h3>
-    <h5>Tech Used</h5>
-    <p>HTML | Javascript | CSS | jQuery | Bootstrap </p>
+    <div id="excTitle">
+      <!-- Title -->
+      <h1>The Reverser</h1>
+      <!-- Description -->
+      <h4>Type in anything you want and on submit the reverser will reverse the text!</h4>
+      <h6>Tech Used: HTML | Javascript | CSS | jQuery | Bootstrap </h6>
+    </div>
     <!-- user area -->
-    <div class="row">
+    <div class="row" id="userInput">
       <!-- user input -->
       <div class="col">
         <form id="formId">
@@ -59,12 +61,12 @@
           <input type="text" id="theValue">
           <button type="submit">submit</button>
         </form>
-      </div>
-      <!-- machine output -->
       <div class="col">
+        <!-- machine output -->
         <h3>The output</h3>
         <div id="answer">
         </div>
+      </div>
       </div>
     </div>
     <!-- How it works -->
