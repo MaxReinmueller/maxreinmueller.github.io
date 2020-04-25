@@ -1,21 +1,18 @@
 $("#formId").submit(function() {
-    var formValue = $("#theValue").val() 
-    display(formValue);
+    var initalInput = $("#theValue").val() 
     $("#theValue").val("")
-    // alert(formValue);
-    // splitReverse(formValue);
+    splitReverse(initalInput);
 });
 
-const splitReverse = (formValue) => {
-    var stuff = formValue.split("").reverse().join("");
-    
-    // alert(stuff);
+const splitReverse = (initalInput) => {
+    var reverseInput = initalInput.split("").reverse().join("");
+    display(reverseInput)
     event.preventDefault();
 }
 
-const display = (formValue) => {
+const display = (reverseInput) => {
     var newDiv = $("<div>")
-    newDiv.text(formValue)
+    newDiv.text(reverseInput)
     $("#answer").append(newDiv);
     event.preventDefault();
 }
