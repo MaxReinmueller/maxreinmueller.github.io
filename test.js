@@ -12,7 +12,7 @@ const splitReverse = (initalInput) => {
 }
 
 const display = (reverseInput) => {
-    var newDiv = $("<h3 class='card-text'>")
+    var newDiv = $("<h4 class='card-text'>")
     newDiv.text(reverseInput)
     $("#answer").append(newDiv);
 }
