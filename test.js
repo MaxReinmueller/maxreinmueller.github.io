@@ -20,22 +20,19 @@ const display = (reverseInput) => {
 
 // reverse an array
 $("#reverseArray").submit(function() {
-    var initalArray = $("#arrayValues");
+    var initalArray = $("#arrayValues").val();
     $("#arrayValues").val("");
-    reversAr(initalArray);
     event.preventDefault();
+    reverseAr(initalArray);
 })
 
 const reverseAr = (initalArray) => {
-    var reversArr = initalArray;
-    reversArr.reverse();
-    event.preventDefault();
+    var newArr = initalArray.split(" ").reverse();
+    dispArry(newArr);
 }
 
-const dispArry = (reversArr) => {
+const dispArry = (newArr) => {
     arrDiv = $("<h4 class='card-text'>")
-    arrDiv.text(reversArr)
+    arrDiv.text(newArr)
     $("#arrayDisplay").append(arrDiv)
-    event.preventDefault();
-
 }
