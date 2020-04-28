@@ -1,6 +1,7 @@
 $("#formId").submit(function() {
     var initalInput = $("#theValue").val() 
     $("#theValue").val("")
+    event.preventDefault();
     splitReverse(initalInput);
 });
 
@@ -11,8 +12,7 @@ const splitReverse = (initalInput) => {
 }
 
 const display = (reverseInput) => {
-    var newDiv = $("<h3>")
+    var newDiv = $("<h3 class='card-text'>")
     newDiv.text(reverseInput)
     $("#answer").append(newDiv);
-    event.preventDefault();
 }
