@@ -20,6 +20,7 @@ var countZeros = (newNumber) => {
     console.log('count ' + count)
 }
 
+// reverse a string
 $("#formId").submit(function() {
     var initalInput = $("#theValue").val() 
     $("#theValue").val("")
@@ -37,4 +38,7 @@ const display = (reverseInput) => {
     var newDiv = $("<h4 class='card-text'>")
     newDiv.text(reverseInput)
     $("#answer").append(newDiv);
+    event.preventDefault();
+
 }
+
