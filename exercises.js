@@ -1,9 +1,4 @@
 // splitting letters
-$("#test").on("click"), function(event) {
-    event.preventDefault();
-    alert("it works");
-}
-
 var splitReverse = (data) => {
     var data = $("#reverseInput").val();
     var newNumber = data.toString().split("").reverse();

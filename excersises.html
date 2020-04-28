@@ -44,21 +44,128 @@
     </div>
   </nav>
 
-  <div class="jumbotron jumbotron-fluid" id="excJumbo">
-    <div class="container">
-      <h1 class="display-4 font-weight-bold font-italic">Exercises</h1>
-      <p class="lead"></p>
-    </div>
-  </div>
-
   <!-- reverse exercise -->
   <div class="container">
-
-
+    <h1>Exercises</h1>
+      <div class="row cols-2">
+        <div class="col-md-6 col-12">
+  
+          <!-- How it works -->
+          <div class="card my-4">
+            <h5 class="card-header">
+              Reverse strings or integers
+            </h5>
+            <div class="card-body">
+              <h5 class="card-title mb-0">Result</h5>
+              <p class="card-text mt-0"><small class="text-muted">Reverses a strings and/or integers</small></p>
+              <p class="card-text">This is awesome -BECOMES- emosewa si sihT</p>
+  
+              <!-- Buttons -->
+              <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Code
+                </a>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#explanation"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Explanation
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  <img src="assets/codeImages/ReverserJSLogic.png" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+              <div class="collapse" id="explanation">
+                <div class="card card-body">
+                  <h6 class="card-title text-muted">Methods Used</h6>
+                  <p class="card-text">.split() | .reverse() | .join()</p>
+                  <h6 class="card-title text-muted">How it works</h6>
+                  <p class="card-text">.reverse() works on arrays.
+                    .split() turns the letters in to an array, then .reverse() is applied.
+                    .join() joins the array back into a string and the out put is appended to the DOM</p>
+                <!-- user input -->
+                <form class="form-inline" id="formId">
+                  <div class="form-group">
+                    <label for="theValue"></label>
+                    <input type="text" class="form-control" id="theValue" aria-describedby="textInput">
+                  </div>
+                  <button type="submit" class="btn btn-primary">^</button>
+                </form>
+                <!-- Displays to DOM -->
+                <div class="mt-3" id="answer">
+                </div>
+                <div id="userInput">
+                </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-12">
+  
+          <!-- How it works -->
+          <div class="card my-4">
+            <h5 class="card-header">
+              Reverse an array
+            </h5>
+            <div class="card-body">
+              <h5 class="card-title mb-0">Result</h5>
+              <p class="card-text mt-0"><small class="text-muted">Reverses an array</small></p>
+              <p class="card-text">apple, bananas, pear -BECOMES- pear, bananas, apple</p>
+  
+              <!-- Buttons -->
+              <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Code
+                </a>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#explanation1"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Explanation
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample1">
+                <div class="card card-body">
+                  <img src="assets/codeImages/ReverserJSLogic.png" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+              <div class="collapse" id="explanation1">
+                <div class="card card-body">
+                  <h6 class="card-title text-muted">Methods Used</h6>
+                  <p class="card-text">.reverse()</p>
+                  <h6 class="card-title text-muted">How it works</h6>
+                  <p class="card-text">.reverse() reverses arrays.</p>
+                <!-- user input -->
+                <form class="form-inline" id="formId">
+                  <div class="form-group">
+                    <label for="theValue"></label>
+                    <input type="text" class="form-control" id="theValue" aria-describedby="textInput">
+                  </div>
+                  <button type="submit" class="btn btn-primary">^</button>
+                </form>
+                <!-- Displays to DOM -->
+                <div class="mt-3" id="answer">
+                </div>
+                <div id="userInput">
+                </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
   </div>
 
+  <br>
+  
   <!-- exercises -->
   <div class="container">
+    <h1>Mini Projects</h1>
     <div class="row">
       <div class="col">
 
