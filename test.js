@@ -1,3 +1,4 @@
+// reverse a string
 $("#formId").submit(function() {
     var initalInput = $("#theValue").val() 
     $("#theValue").val("")

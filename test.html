@@ -59,33 +59,22 @@
   <div class="container">
     <div class="row cols-2">
       <div class="col-md-6 col-12">
+
         <!-- How it works -->
-        <div class="card">
-          <div class="card-header">
-            Reverse string
-          </div>
+        <div class="card my-4">
+          <h5 class="card-header">
+            Reverse strings or integers
+          </h5>
           <div class="card-body">
-            <h5 class="card-title">Result</h5>
-            <p class="card-text">This is awesome = emosewa si sihT</p>
+            <h5 class="card-title mb-0">Result</h5>
+            <p class="card-text mt-0"><small class="text-muted">Reverses a strings and/or integers</small></p>
+            <p class="card-text">This is awesome -BECOMES- emosewa si sihT</p>
 
-            <!-- user input -->
-            <form class="form-inline" id="formId">
-              <div class="form-group">
-                <label for="theValue"></label>
-                <input type="text" class="form-control" id="theValue" aria-describedby="textInput">
-              </div>
-              <button type="submit" class="btn btn-primary">^</button>
-            </form>
-
-            <div class="my-4" id="answer">
-            </div>
-            <div id="userInput" class="mb-2">
-            </div>
-
+            <!-- Buttons -->
             <p>
               <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
                 aria-expanded="false" aria-controls="collapseExample">
-                Code Example
+                Code
               </a>
               <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#explanation"
                 aria-expanded="false" aria-controls="collapseExample">
@@ -95,59 +84,93 @@
             <div class="collapse" id="collapseExample">
               <div class="card card-body">
                 <img src="assets/codeImages/ReverserJSLogic.png" class="card-img-top" alt="...">
+                
               </div>
             </div>
             <div class="collapse" id="explanation">
               <div class="card card-body">
                 <h6 class="card-title text-muted">Methods Used</h6>
-                <p class="card-text">.split()  |  .reverse()  |  .join()</p>
+                <p class="card-text">.split() | .reverse() | .join()</p>
                 <h6 class="card-title text-muted">How it works</h6>
-                <p class="card-text">.reverse() works on arrays. 
+                <p class="card-text">.reverse() works on arrays.
                   .split() turns the letters in to an array, then .reverse() is applied.
-                .join() joins the array back into a string and the out put is appended to the DOM</p>
+                  .join() joins the array back into a string and the out put is appended to the DOM</p>
+              <!-- user input -->
+              <form class="form-inline" id="formId">
+                <div class="form-group">
+                  <label for="theValue"></label>
+                  <input type="text" class="form-control" id="theValue" aria-describedby="textInput">
+                </div>
+                <button type="submit" class="btn btn-primary">^</button>
+              </form>
+              <!-- Displays to DOM -->
+              <div class="mt-3" id="answer">
               </div>
+              <div id="userInput">
+              </div>
+                </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-6 col-1">
-      <!-- user area -->
+
+      <div class="col-md-6 col-12">
+
+        <!-- How it works -->
+        <div class="card my-4">
+          <h5 class="card-header">
+            Reverse an array
+          </h5>
+          <div class="card-body">
+            <h5 class="card-title mb-0">Result</h5>
+            <p class="card-text mt-0"><small class="text-muted">Reverses an array</small></p>
+            <p class="card-text">apple, bananas, pear -BECOMES- pear, bananas, apple</p>
+
+            <!-- Buttons -->
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Code
+              </a>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#explanation1"
+                aria-expanded="false" aria-controls="collapseExample">
+                Explanation
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample1">
+              <div class="card card-body">
+                <img src="assets/codeImages/ReverserJSLogic.png" class="card-img-top" alt="...">
+                
+              </div>
+            </div>
+            <div class="collapse" id="explanation1">
+              <div class="card card-body">
+                <h6 class="card-title text-muted">Methods Used</h6>
+                <p class="card-text">.reverse()</p>
+                <h6 class="card-title text-muted">How it works</h6>
+                <p class="card-text">.reverse() reverses arrays.</p>
+              <!-- user input -->
+              <form class="form-inline" id="formId">
+                <div class="form-group">
+                  <label for="theValue"></label>
+                  <input type="text" class="form-control" id="theValue" aria-describedby="textInput">
+                </div>
+                <button type="submit" class="btn btn-primary">^</button>
+              </form>
+              <!-- Displays to DOM -->
+              <div class="mt-3" id="answer">
+              </div>
+              <div id="userInput">
+              </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>
   </div>
-
-
-
-
-  <!-- <div class="row"> -->
-  <!-- <div class="col-6"> -->
-  <!-- Language -->
-  <!-- <h3>HTML</h3> -->
-  <!-- Copy of the code -->
-  <!-- <img src="assets/codeImages/ReverserHTML.png" style="max-width: 550px;"> -->
-  <!-- tech picture -->
-  <!-- <h6>HTML | CSS | Bootstrap</h6> -->
-  <!-- explanation -->
-  <!-- <div> -->
-  <!-- <h4>How it works</h4> -->
-  <!-- <p>It works by... Blah Blah blah</p> -->
-  <!-- </div> -->
-  <!-- </div> -->
-  <!-- <div class="col-6"> -->
-  <!-- Code Type -->
-  <!-- <h3>Javascript</h3> -->
-  <!-- <img src="assets/codeImages/ReverserJSLogic.png" style="max-width: 550px;"> -->
-  <!-- <h6>Javascript | jQuery</h6> -->
-  <!-- explanation -->
-  <!-- <div> -->
-  <!-- <h4>How it works</h4> -->
-  <!-- <p>It works by... Blah Blah blah</p> -->
-  <!-- </div> -->
-  <!-- </div> -->
-  <!-- </div> -->
-
 
   <script type="text/javascript" src="test.js"></script>
 </body>
