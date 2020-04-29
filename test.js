@@ -9,7 +9,6 @@ $("#formId").submit(function() {
 const splitReverse = (initalInput) => {
     var reverseInput = initalInput.split("").reverse().join("");
     display(reverseInput)
-    event.preventDefault();
 }
 
 const display = (reverseInput) => {
