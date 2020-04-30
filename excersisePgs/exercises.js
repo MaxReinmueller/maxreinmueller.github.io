@@ -14,25 +14,27 @@ const splitReverse = (initalInput) => {
 const display = (reverseInput) => {
   var newDiv = $("<h4 class='card-text'>")
   newDiv.text(reverseInput)
-  console.log(newDiv);
   $("#answer").append(newDiv);
 }
 
 // reverse an array
 $("#reverseArray").submit(function() {
-  var initalArray = $("#arrayValues").val();
+  var reverseVal = $("#arrayValues").val();
   $("#arrayValues").val("");
+  reverseAr1(reverseVal);
   event.preventDefault();
-  reverseAr(initalArray);
+  console.log('submit ' + reverseVal)
 })
 
-const reverseAr = (initalArray) => {
-  var newArr = initalArray.split(" ").reverse();
-  dispArry(newArr);
+const reverseAr1 = (reverseVal) => {
+  var newArr1 = reverseVal.split(" ").reverse();
+  console.log('reverse ' + newArr1)
+  dispArry(newArr1)
 }
 
-const dispArry = (newArr) => {
+const dispArry = (newArr1) => {
+  console.log('display ' + newArr1)
   arrDiv = $("<h4 class='card-text'>")
-  arrDiv.text(newArr)
+  arrDiv.text(newArr1)
   $("#arrayDisplay").append(arrDiv)
 }
