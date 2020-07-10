@@ -10,7 +10,13 @@ const IndexPage = () => (
   <div>
     <NavBar />
     <SEO title="Home" />
-
+    <div class="h-screen flex justify-center content-center flex-wrap">
+      <div class="px-6 py-6 content-center">
+        <div class="text-xl font-bold mb-2 text-center">Front-end Web Developer and UX Designer</div>
+        <p class="text-gray-700 text-base text-center">I design and develop delightful experiences</p>
+      </div>
+    </div>
+  
   </div>
 )
 
