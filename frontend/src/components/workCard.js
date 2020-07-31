@@ -9,7 +9,7 @@ const WorkCard = () => {
       <Image class="w-full" />
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">logFooBar</div>
-          <p class="text-gray-700 text-base">My personal tech journal. A fullstack CRUD application with authentication built using MongoDB, Express, React, and Node deployed with Heroku </p>
+          <p class="text-gray-700 text-base">My personal journal about UX, tech, and random stuff. A fullstack CRUD application with authentication built using MongoDB, Express, React, and Node deployed with Heroku </p>
           <a href="https://logfoobar.herokuapp.com" target="https://logfoobar.herokuapp.com">
             <button class="bg-white hover:bg-gray-100 hover:shadow-inner text-gray-800 font-semibold py-2 px-4 rounded shadow-lg">
             Go
