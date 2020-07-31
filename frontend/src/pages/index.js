@@ -15,7 +15,8 @@ const IndexPage = () => (
     <SEO title="Home" />
     {/* Hero Image */}
     <div class="h-screen flex justify-center content-center flex-wrap">
-    <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="background" />
+    {/* https://tailwindcss.com/img/card-top.jpg */}
+    <img class="" src="https://github.com/MaxReinmueller/maxreinmueller.github.io/blob/master/frontend/src/images/Group%2095.png" alt="background" />
       <div class="px-6 py-6 content-center">
         <div class="text-xl font-bold mb-2 text-center">Front-end Web Developer and UX Designer</div>
         <p class="text-gray-700 text-base text-center">I design and develop delightful experiences</p>
