@@ -22,9 +22,9 @@ const WorkCard = () => {
         <div class="px-6 py-4">
           <div class="font-sans font-family:Helvetica-Neue font-medium text-xl mb-2">Maynooth Furniture</div>
           <p class="text-gray-700 text-base">UX project for a fictitious furniture store designed with adobe XD and developed with Gatsby and Tailwind CSS </p>
-          <button class="absolute bottom-0 mb-4 bg-white hover:bg-gray-100 hover:shadow-inner text-gray-800 font-semibold py-2 px-4 rounded shadow-lg">
+         <a href="https://xd.adobe.com/view/4a2a2dbd-a165-48c0-8284-4b66cd22e137-1f79/?fullscreen" target="https://xd.adobe.com/view/4a2a2dbd-a165-48c0-8284-4b66cd22e137-1f79/?fullscreen"> <button class="absolute bottom-0 mb-4 bg-white hover:bg-gray-100 hover:shadow-inner text-gray-800 font-semibold py-2 px-4 rounded shadow-lg">
             Go
-          </button>
+          </button> </a>
         </div>
       </div>
       
