@@ -26,25 +26,27 @@ const IndexPage = () => (
       </div>
     </div> */}
     <div class="flex mt-12 justify-center content-center">
-      <div class="max-w-sm rounded overflow-hidden mr-12">
-        <div class="px-6 py-4">
+      
+    <div class="max-w-sm rounded overflow-hidden  mr-12">
+      <Image2 style="h-40rem"/>
+      <div class="px-6 py-4 mt-6">
           <div class="font-sans font-family:Helvetica-Neue font-bold text-xl mb-2">UX & UI Design</div>
           <p class="text-gray-700 text-base">
             I create experiences that foster utility, understanding, and appreciation by balancing beliefs, ideas, and intention with reality, purpose, and useability.
           </p>
         </div>
-        <Image1 />
       </div>
-        
-      <div class="max-w-sm rounded overflow-hidden ml-12">
-      <Image2 style="h-40rem"/>
-        <div class="px-6 py-4">
+
+      <div class="max-w-sm rounded overflow-hidden">
+      <div class="px-6 py-4">
           <div class="font-sans font-family:Helvetica-Neue font-bold text-xl mb-2 mt-4">Web Development  </div>
           <p class="text-gray-700 text-base">
-            I work with people to transform their thoughts into reality.
+            Web development technologies I use include: Git, React, Gatsby, MongoDB, Javascript, HTML, CSS, Express, and Node.
           </p>
         </div>
+        <Image1 />
       </div>
+      
     </div>
   
 
