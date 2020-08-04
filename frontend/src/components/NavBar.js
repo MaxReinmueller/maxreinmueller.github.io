@@ -21,9 +21,9 @@ const NavBar = () => {
         Blog
       </a> */}
     </div>
-    <div>
+    {/* <div>
       <a href="#" class="font-sans font-family:Helvetica-Neue font-medium inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-red-400 hover:bg-white mt-4 lg:mt-0">Contact Me</a>
-    </div>
+    </div> */}
   </div>
       </nav>
     </div>
