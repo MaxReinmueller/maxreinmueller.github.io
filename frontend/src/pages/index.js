@@ -32,7 +32,7 @@ const IndexPage = () => (
       <div class="px-6 py-4 mt-6">
           <div class="font-sans font-family:Helvetica-Neue font-bold text-xl mb-2">UX & UI Design</div>
           <p class="text-gray-700 text-base">
-            I create experiences that foster utility, understanding, and appreciation by balancing beliefs, ideas, and intention with reality, purpose, and useability.
+            I design delightful experiences by balancing beliefs, ideas, and intentions with reality, purpose, and useability.
           </p>
         </div>
       </div>
